@@ -5,7 +5,7 @@ The project leverages **NS-2 (Network Simulator 2)** for network experiments, cu
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 codes and files/
 
 │── C++ code for BBR/
@@ -32,7 +32,7 @@ codes and files/
 
 ---
 
-## 🚀 Features
+## Features
 - Implementation of **TCP BBR congestion control** in C++.
 - Simulation of **BBR vs Reno** using **NS-2**.
 - Collection of trace files (`.tr`, `.nam`) for detailed analysis.
@@ -41,7 +41,7 @@ codes and files/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 - **NS-2** (Network Simulator 2)
 - **GCC / g++** (for compiling the BBR C++ code)
 - **Python 3.x** with libraries:
@@ -51,7 +51,7 @@ codes and files/
 
 ---
 
-## 🛠️ Usage
+## Usage
 
 ### 1. Compile BBR
 ```bash
@@ -75,7 +75,7 @@ bash
 Copy code
 cd "codes and files/python code"
 python3 analyze5.py
-📊 Expected Output
+ Expected Output
 - Trace files for each algorithm
 - NAM visualizations showing network behavior
 - Plots/graphs comparing throughput, delay, and fairness between Reno and BBR
