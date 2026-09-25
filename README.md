@@ -57,30 +57,34 @@ codes and files/
 ```bash
 cd "codes and files/C++ code for BBR"
 ns make tcp-bbr.cc
-
+```
 2. ** Run Simulations **
-bash
+```bash
 Copy code
 cd "codes and files/otcl code and files"
-
+```
 # Run Reno simulation
+```bash
 ns reno.tcl
-
+```
 # Run BBR simulation
+```bash
 ns tcp-reno-bbr.tcl
+```
 - This will generate trace files (.tr) and animation files (.nam).
 
 3. Analyze Results
-bash
+```bash
 Copy code
 cd "codes and files/python code"
 python3 analyze5.py
+```
  Expected Output
 - Trace files for each algorithm
 - NAM visualizations showing network behavior
 - Plots/graphs comparing throughput, delay, and fairness between Reno and BBR
 
 
-🤝 Contributing
+# Contributing
 Contributions are welcome!
 Please open an issue or submit a pull request if you’d like to extend the analysis or add new congestion control algorithms.
