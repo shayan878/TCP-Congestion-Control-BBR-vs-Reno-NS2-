@@ -58,7 +58,7 @@ codes and files/
 cd "codes and files/C++ code for BBR"
 ns make tcp-bbr.cc
 ```
-2. ** Run Simulations **
+### 2. Run Simulations
 ```bash
 Copy code
 cd "codes and files/otcl code and files"
